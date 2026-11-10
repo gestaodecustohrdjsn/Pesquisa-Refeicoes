@@ -1,4 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-<circle cx="32" cy="32" r="29" fill="#FFF4C2" stroke="#A88C18" stroke-width="2.5"/>
-<g fill="none" stroke="#A88C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="27" r="2" fill="#75610A" stroke="none"/><circle cx="40" cy="27" r="2" fill="#75610A" stroke="none"/><path d="M23 38c6 5 12 5 18 0"/></g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1{fill:#cbeccb;stroke:#006837;stroke-width:2.5}
+      .cls-2{fill:#006837;stroke:#006837;stroke-miterlimit:10}
+      .cls-3{fill:none;stroke:#006837;stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <title>satisfeito.svg</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M61 32 C61 48.016 48.016 61 32 61 C15.984 61 3 48.016 3 32 C3 15.984 15.984 3 32 3 C48.016 3 61 15.984 61 32 Z" class="cls-1"/>
+    <path d="M26 27 C26 28.105 25.105 29 24 29 C22.895 29 22 28.105 22 27 C22 25.895 22.895 25 24 25 C25.105 25 26 25.895 26 27 Z" class="cls-2"/>
+    <path d="M42 27 C42 28.105 41.105 29 40 29 C38.895 29 38 28.105 38 27 C38 25.895 38.895 25 40 25 C41.105 25 42 25.895 42 27 Z" class="cls-2"/>
+    <path d="M23 38 C29 43 35 43 41 38" class="cls-3"/>
+  </g>
 </svg>
