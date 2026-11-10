@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f6fbfc">
+<link rel="manifest" href="./manifest.json">
+<link rel="stylesheet" href="./style.css">
+<title>Pesquisa de Refeições | HRPP</title>
+<script defer src="./config.js"></script>
+<script defer src="./app.js"></script>
+</head>
+<body>
+<header><img src="./assets/logo_hospital.png" alt="Hospital Regional de Ponta Porã"><span>PESQUISA DE SATISFAÇÃO</span></header>
+<main>
+<h1>Como estava a refeição?</h1>
+<p>Toque em uma opção e confirme.</p>
+<form>
+<fieldset>
+<legend class="sr">Avaliação da refeição</legend>
+<label class="ruim"><input type="radio" name="nota" value="Ruim" required><span><img src="./assets/insatisfeito.svg" alt="">Ruim</span></label>
+<label class="regular"><input type="radio" name="nota" value="Regular"><span><img src="./assets/indiferente.svg" alt="">Regular</span></label>
+<label class="bom"><input type="radio" name="nota" value="Bom"><span><img src="./assets/satisfeito.svg" alt="">Bom</span></label>
+</fieldset>
+<button disabled>Confirmar resposta</button>
+</form>
+<p class="feedback" role="status"></p>
+</main>
+<footer><span id="status" role="status"></span></footer>
+</body>
+</html>
